@@ -1,0 +1,9 @@
+1. Database Object "VIEW";
+
+CREATE or replace VIEW emp_v
+              as select * from emp where job = 'MANAGER';
+              
+select * from emp_v;
+
+2. SAP and ERP system
+3. Industry Assets
